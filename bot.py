@@ -95,6 +95,9 @@ def entregar_pdf_al_usuario(message):
 if __name__ == '__main__':
   # Configurar el Webhook automáticamente al encender
   bot.remove_webhook()
+  bot.set_webhook(
+    url:'https://d-todito-bot.onrender.com/9188595545:AAHCcl_pv2NjSuhOQMMpFuwI_zhFe7khv48'
+  )
   # Nota: Aquí pondrás la URL que te dé Render más adelante
   # bot.set_webhook(url=f"https://TU-APP-EN-RENDER.onrender.com/{TOKEN}")
 
